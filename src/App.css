@@ -1,38 +1,71 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 .App {
-  text-align: center;
-  text-decoration: black;
+  display: grid;
+  grid-template-columns: 380px 800px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.loginGrid{
+  padding: 80px 100px 80px 350px;
+  display: grid;
+  grid-template-rows: 40px 20px 40px 480px;
+  margin-bottom: 5px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.loginSection{
+  display: grid;
+  grid-template-rows: 20px 40px 20px 40px 20px 50px;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-color:beige;
+  align-items: center;
+  padding: 30px 0px 20px 60px;
+  height: fit-content;
+}
+.loginSection input{
+  height: 26px;
+  border-radius: 4px;
+  color: black;
+}
+.loginSection button{
+  background-color: black;
   color: white;
+  height: 26px;
+  font-size: smaller;
+  font-weight: 900;
+  border-radius: 4px;
 }
-
-.App-link {
-  color: #61dafb;
+.sidebar{
+  background-color: black;
+  padding: 223px 125px 100px 125px;
+  background-color: black;
+  margin-top: 8px;
+  margin-left: 31px;
+  /* margin-bottom: -14px; */
+  /* margin-right: 224px; */
+  padding: 224px 90px 102px 107px;
+  border-radius: 27px;
+  height: 278px;
+  width: 25px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.signInLabel-1{
+  font-size:xx-large;
+  font-weight: 800;
+}
+.signInLabel-2{
+  font-size:medium;
+  font-weight: 400;
+}
+.sideBoard{
+  color: antiquewhite;
+  font-weight: bolder;
+  font-size: xx-large;
+  padding-right: 90px;
+}
+a{
+  color: blue;
+  text-decoration: none;
+}
+.authButtons button{
+  margin-right: 20px;
 }
